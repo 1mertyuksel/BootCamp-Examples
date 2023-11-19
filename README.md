@@ -19,6 +19,9 @@ gcc moving_median.c -o moving_median
  
 Dizi eleman sayısını giriniz: 10
 Dizi elemanlarını giriniz:
-3 5 2 8 4 7 1 6 10 9
-2,4,4,6,7,6,7,9
+input:
+{3 5 2 8 4 7 1 6 10 9}
+
+output:
+{2,4,4,6,7,6,7,9}
 
