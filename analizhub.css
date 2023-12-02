@@ -1,4 +1,50 @@
 
+    
+    
+      body {
+        background-image: url(8538dc21f7c23dc288b23002d3261d51.jpg);
+        background-size: cover;
+        background-repeat:no-repeat;
+
+    }
+
+    .firma-logo {
+        width: 220px;
+        height: 180px; 
+        margin-bottom: 10px; 
+        margin: -100px 0 0 ;
+        align-self: flex-start;
+    }
+
+    nav {
+        background-color: #333;
+        color: white;
+        padding: 15px;
+        
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin-left: 250px;
+    }
+
+    nav li {
+        margin-right: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        border-bottom: 2px solid white;
+    }
+    
     li {
         text-decoration: underline;
         color: blue;
@@ -9,71 +55,68 @@
         margin-top: 100px;
     }
 
-.solserit{
+    .solserit {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 220px;
+        background-color: #34a046;
+        padding-top: 100px;
+        
+    }
 
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 350px; /* Şeridin genişliği */
-    background-color:#92a8d1; /* Şeridin arka plan rengi */
-    /* İstediğiniz diğer stil bilgileri */
-    padding-top: 100px;
-   
-}
-
-.kapak {
-    width: calc(350px - %100);
-    height: 100px;
-    background-image: url('pexels-pixabay-46798.jpg');
-}
+    
 
 
 
 
 .box1{
     color: white;
-    background-color: #663399; /* Güzel bir arka plan rengi */
-    margin-top: 600px;
+    background-color: #3dbe6f; 
+    margin-top: 150px;
     height: 250px;
     width: 500px;
     margin-left: 400px;
-    padding: 15px; /* İçerikten kenarlara iç içe bir mesafe bırakmak için */
-    border: 2px solid #4B0082; /* Kenarlık (border) eklemek */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif bir gölge eklemek */
-    box-sizing: border-box; /* padding ve border'ın genişliği ve yüksekliği içeriğin içine dahil edilir */
+    padding: 15px; 
+    border: 2px solid #4B0082; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box; 
     margin-bottom: 200px;
 
 }
 
 .box1 h2 {
-    margin-top: 0; /* H2 başlığı ile üst kenarlık arasındaki mesafeyi sıfırlayın */
+    margin-top: 0; 
 }
 
 .box1 p {
-    margin-top: 10px; /* Paragraf ile üst kenarlık arasındaki mesafeyi ayarlayın */
+    margin-top: 10px; 
 }
     
 .box2 {
     color: white;
-    background-color: #663399; 
+    background-color: #3974b8; 
     margin-top: 70px;
     height: 250px;
     width: 500px;
     margin-left: 400px;
-    padding: 15px; /* İçerikten kenarlara iç içe bir mesafe bırakmak için */
-    border: 2px solid #4B0082; /* Kenarlık (border) eklemek */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif bir gölge eklemek */
-    box-sizing: border-box; /* padding ve border'ın genişliği ve yüksekliği içeriğin içine dahil edilir */
+    padding: 15px; 
+    border: 2px solid #4ca4c7; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
     margin-bottom: 200px;
+     
 }
 
 .box2 h2 {
-    margin-top: 0; /* H2 başlığı ile üst kenarlık arasındaki mesafeyi sıfırlayın */
+    margin-top: 0; 
 }
 
 .box2 p {
-    margin-top: 10px; /* Paragraf ile üst kenarlık arasındaki mesafeyi ayarlayın */
+    margin-top: 10px; 
 }
 
 
@@ -81,47 +124,92 @@
 
 .box3 {
     color: white;
-    background-color: #663399; /* Güzel bir arka plan rengi */
+    background-color: #32325a; 
     margin-top: 70px;
     height: 250px;
     width: 500px;
     margin-left: 400px;
-    padding: 15px; /* İçerikten kenarlara iç içe bir mesafe bırakmak için */
-    border: 2px solid #4B0082; /* Kenarlık (border) eklemek */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif bir gölge eklemek */
-    box-sizing: border-box; /* padding ve border'ın genişliği ve yüksekliği içeriğin içine dahil edilir */
-    margin-bottom: 200px;
+    padding: 15px; 
+    border: 2px solid #ee7401; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box;
 }
 
 .box3 h2 {
-    margin-top: 0; /* H2 başlığı ile üst kenarlık arasındaki mesafeyi sıfırlayın */
+    margin-top: 0; 
 }
 
 .box3 p {
-    margin-top: 10px; /* Paragraf ile üst kenarlık arasındaki mesafeyi ayarlayın */
+    margin-top: 10px; 
 }
 
-/* Alt şerit stil bilgileri */
+.box-buton {
+    padding: 10px 80px;
+    background-color: #5f695f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.box-buton:hover {
+    background-color: #879187;
+}
+
+.box-buton:active {
+    background-color: #535a53;
+}
+
+
+
+
 .alt-serit {
-    height: 100px; /* Şerit yüksekliği */
-    background-color:darkslategray; /* Şerit rengi */
-    width: 100%; /* Şerit genişliği, sayfanın tam genişliği */
-    
+    height: 180px;
+    background-color:rgba(172, 218, 46, 0.795);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    margin-left: 220px;
+    margin-right: auto;
+    width: calc(100% - 220px);
 }
 
-    
-.solserit {
-    display: flex;
-    flex-direction: column;
-    /* Diğer stil bilgileri */
+.kulup-yazi {
+    color: rgb(14, 8, 8);
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    margin-left: 220px; 
+    padding-top: 20px; 
 }
+
+.kulup-logolar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.kulup-logo {
+    max-width: 100px;
+    margin-left: 60px; 
+}
+
+.kulup-logo img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+    
+
 
 .ust-kisim {
-    /* Üst kısımın stil bilgileri */
     margin-bottom: 20px;
 }
 
-/* Form elemanları için stil bilgileri */
 label {
     display: block;
     margin-bottom: 5px;
@@ -135,23 +223,20 @@ input, textarea {
 }
 
 
-/* Butonun stil bilgileri */
 .gonder-buton {
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #2362d8;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
-
 .gonder-buton:hover {
-    background-color: #45a049;
+    background-color: #3a79c2;
 }
 
-
 .gonder-buton:active {
-    background-color: #3e8e41;
+    background-color: #294594;
 }
 
