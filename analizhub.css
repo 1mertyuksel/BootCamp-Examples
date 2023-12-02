@@ -31,15 +31,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 .box1{
     color: white;
     background-color: #663399; /* Güzel bir arka plan rengi */
@@ -154,12 +145,12 @@ input, textarea {
     cursor: pointer;
 }
 
-/* Butonun hover (üzerine gelindiğinde) stil bilgileri */
+
 .gonder-buton:hover {
     background-color: #45a049;
 }
 
-/* Butonun aktif (tıklama anında) stil bilgileri */
+
 .gonder-buton:active {
     background-color: #3e8e41;
 }
