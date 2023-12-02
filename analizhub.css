@@ -1,0 +1,166 @@
+
+    li {
+        text-decoration: underline;
+        color: blue;
+        
+    }
+
+    h2 {
+        margin-top: 100px;
+    }
+
+.solserit{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 350px; /* Şeridin genişliği */
+    background-color:#92a8d1; /* Şeridin arka plan rengi */
+    /* İstediğiniz diğer stil bilgileri */
+    padding-top: 100px;
+   
+}
+
+.kapak {
+    width: calc(350px - %100);
+    height: 100px;
+    background-image: url('pexels-pixabay-46798.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box1{
+    color: white;
+    background-color: #663399; /* Güzel bir arka plan rengi */
+    margin-top: 600px;
+    height: 250px;
+    width: 500px;
+    margin-left: 400px;
+    padding: 15px; /* İçerikten kenarlara iç içe bir mesafe bırakmak için */
+    border: 2px solid #4B0082; /* Kenarlık (border) eklemek */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif bir gölge eklemek */
+    box-sizing: border-box; /* padding ve border'ın genişliği ve yüksekliği içeriğin içine dahil edilir */
+    margin-bottom: 200px;
+
+}
+
+.box1 h2 {
+    margin-top: 0; /* H2 başlığı ile üst kenarlık arasındaki mesafeyi sıfırlayın */
+}
+
+.box1 p {
+    margin-top: 10px; /* Paragraf ile üst kenarlık arasındaki mesafeyi ayarlayın */
+}
+    
+.box2 {
+    color: white;
+    background-color: #663399; 
+    margin-top: 70px;
+    height: 250px;
+    width: 500px;
+    margin-left: 400px;
+    padding: 15px; /* İçerikten kenarlara iç içe bir mesafe bırakmak için */
+    border: 2px solid #4B0082; /* Kenarlık (border) eklemek */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif bir gölge eklemek */
+    box-sizing: border-box; /* padding ve border'ın genişliği ve yüksekliği içeriğin içine dahil edilir */
+    margin-bottom: 200px;
+}
+
+.box2 h2 {
+    margin-top: 0; /* H2 başlığı ile üst kenarlık arasındaki mesafeyi sıfırlayın */
+}
+
+.box2 p {
+    margin-top: 10px; /* Paragraf ile üst kenarlık arasındaki mesafeyi ayarlayın */
+}
+
+
+
+
+.box3 {
+    color: white;
+    background-color: #663399; /* Güzel bir arka plan rengi */
+    margin-top: 70px;
+    height: 250px;
+    width: 500px;
+    margin-left: 400px;
+    padding: 15px; /* İçerikten kenarlara iç içe bir mesafe bırakmak için */
+    border: 2px solid #4B0082; /* Kenarlık (border) eklemek */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif bir gölge eklemek */
+    box-sizing: border-box; /* padding ve border'ın genişliği ve yüksekliği içeriğin içine dahil edilir */
+    margin-bottom: 200px;
+}
+
+.box3 h2 {
+    margin-top: 0; /* H2 başlığı ile üst kenarlık arasındaki mesafeyi sıfırlayın */
+}
+
+.box3 p {
+    margin-top: 10px; /* Paragraf ile üst kenarlık arasındaki mesafeyi ayarlayın */
+}
+
+/* Alt şerit stil bilgileri */
+.alt-serit {
+    height: 100px; /* Şerit yüksekliği */
+    background-color:darkslategray; /* Şerit rengi */
+    width: 100%; /* Şerit genişliği, sayfanın tam genişliği */
+    
+}
+
+    
+.solserit {
+    display: flex;
+    flex-direction: column;
+    /* Diğer stil bilgileri */
+}
+
+.ust-kisim {
+    /* Üst kısımın stil bilgileri */
+    margin-bottom: 20px;
+}
+
+/* Form elemanları için stil bilgileri */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+
+/* Butonun stil bilgileri */
+.gonder-buton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Butonun hover (üzerine gelindiğinde) stil bilgileri */
+.gonder-buton:hover {
+    background-color: #45a049;
+}
+
+/* Butonun aktif (tıklama anında) stil bilgileri */
+.gonder-buton:active {
+    background-color: #3e8e41;
+}
+
